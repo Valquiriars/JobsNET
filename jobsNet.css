@@ -1,0 +1,257 @@
+* {
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #000;
+        font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.logo{
+    margin-left: 0%;
+    margin-top: 5%;
+}
+#titulo{
+    color: #612391;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    float: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+#frase{
+    color: #260635;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    float: center;
+    margin-top: 2rem;
+    margin-left:15%;
+    
+}
+
+header {
+    padding: 8px;
+    margin:0%;
+    align-items: center;
+    background: #fff;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+header ul {
+    display: flex;
+    list-style: none; 
+    margin-top: 0.5rem;
+}
+
+header ul li {
+    padding: 5px;
+    padding: 0.3125rem;
+    color:indigo
+}
+#subtitulo{
+    color: rgb(50, 4, 56);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20%;
+    padding:0.8%;
+    
+}
+
+ul li a{
+    display: inline block;         
+  list-style: none;               
+  transition: 400ms;
+  color: rgb(73, 45, 90);
+  box-sizing: border-box;
+    color: rgb(41, 5, 44);
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+    padding: 5px;
+    padding: 0.3125rem;
+                
+ }
+
+ li a:hover {
+    color:rgb(136, 63, 3);            
+    text-decoration: underline;
+ }
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background:url(./51276861_243724433187765_1321338562536275968_n.png);
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 1em;    
+    justify-content: center;
+   
+    
+    
+}
+
+form{
+    margin-left: 32%;
+    margin-top: 2%;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+    
+}
+
+.preenchimento{
+    margin-bottom: 1em;
+    
+}
+
+.preenchimento label{
+    margin-bottom: 0.2em;
+    color: rgb(43, 1, 78);
+    display: inline-block;
+}
+
+fieldset.grupo .preenchimento{
+    float: left;
+    margin-right: 1em;
+}
+
+.preenchimento input[type="text"], .preenchimento input[type="date"], .preenchimento input[type="numero"],
+.preenchimento  input[type="email"],.preenchimento input[type="cpf"],.preenchimento input[type="rg"], 
+.preenchimento select {
+    padding: 0.2em;
+    border: 1px solid #841db4;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+
+#nome{
+    width: 20rem;
+
+} 
+#endereço{
+    width: 19rem;
+}
+
+#cidade{
+    padding: 0.2em;
+    border: 1px solid #5125d6;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 16rem;
+}
+#estado{
+    padding: 0.2em;
+    border: 1px solid #5125d6;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 7.5rem;
+}
+
+.preenchimento select option{
+    padding-right: 1em;
+}
+
+.preenchimento input:focus, .preenchimento section :focus, .preenchimento textarea:focus{
+    background: #d2d9df;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(1, 1, 145);
+}
+
+
+#contato {
+    width: 13.85em;
+}
+
+
+ #cpf_digitado, #rg {
+    width: 18rem;
+    
+}
+
+#data,#uf{
+    width: 5rem;
+}
+
+#email{
+    color:rgb(43, 1, 78);
+    width: 37rem;
+    
+}
+
+#cargo{
+    width: 15rem;
+
+}
+
+#numero {
+    width: 12rem;
+}
+
+#civil, #sexo{
+    
+        width: 12rem;
+    }
+
+    button:hover{
+        background: #eb9b08;
+        box-shadow: inset 2 px 2px 2px rgba(0,0,0,0.2) ;
+        text-shadow: none;
+        cursor: pointer;
+        background-position: left bottom;
+    }
+    
+     button {
+        width: 10rem;
+        padding: 5px;
+        margin-top: 10px;
+        background: linear-gradient(to right, #631463 50%, black 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        color:#FFF;
+        border: none;
+        cursor: pointer;
+        transition: all 300ms ease-out;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 18%;
+        margin-top: 15px;
+    }
+    
+  
+
+@media only screen and (max-width: 800px){
+    .form {
+        width: 95%;
+    }
+}
+
+
+
+@media only screen and ( max-width: 480px) {
+    .container .name h1 {
+        font-size: 30px
+    }
+
+    .container .name h5 {
+        font-size: 15px
+    }
+
+
+    #about p{
+        max-width: 80%;  
+        text-align: justify;
+    }
+    
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
